@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navigationBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: rgba(244, 242, 115, 0.539);
+    padding: 10px 0;
+}
+
+header {
+    font-size: 2em;
+    background-color: #db2556;
+    color: #fff;
+    padding-left: 30px;
+    margin-bottom: 5px;
+}
+
+nav {
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    margin-right: 5px;
+    font-size: 1.2em;
+    border-bottom: 2px solid #db2556;
+    color: #db2556;
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+    color: #db2556;
+    padding-top: 100px;
+}
+
+.subtitle h1 {
+    background-color: #db2556;
+    color: #fff;
+    margin: 10px;
+}
+
+
+.introduction, .workShow, .footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20px
+}
+
+.introduction > *:nth-child(1) {
+    flex: 1 1 10%;
+}
+
+.introduction > *:nth-child(2) {
+    flex: 1 1 80%;
+}
+
+.workShow > *:nth-child(1) {
+    flex: 1 1 10%;
+}
+
+.workShow > *:nth-child(2) {
+    flex: 1 1 80%;
+}
+
+.footer > *:nth-child(1) {
+    flex: 1 1 10%;
+}
+
+.footer > *:nth-child(2) {
+    flex: 1 1 80%;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #db2556;
+    border-right: #db2556 solid 2px;
+    margin-right: 40px;
+}
+
+.footernavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60%;
+    border: solid #db2556 10px;
+    background-image: url("https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    margin: 5px;
+}
+
+.Cardinsidetitle {
+    background-color: #db2556;   
+}
+
+.subCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subCards > * {
+    flex: 1 1 48%;
+}
+
+.subCard1 {
+    border: #db2556 solid 1px;
+    margin: 5px;
+    background-image: url("https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374");
+    background-size: cover;
+}
+
+.subCard2 {
+    border: #db2556 solid 1px;
+    margin: 5px;
+    background-image: url("https://images.freeimages.com/images/large-previews/5e7/electronic-components-diodes-1546241.jpg");
+    background-size: cover;
+}
+
+.subCard3 {
+    border: #db2556 solid 1px;
+    margin: 5px;
+    background-image: url("https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471");
+    background-size: auto;
+    color: #db2556;
+}
+
+.subCard4 {
+    border: #db2556 solid 1px;
+    margin: 5px;
+    background-image: url("https://images.unsplash.com/photo-1580477667995-2b94f01c9516?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: auto;
+}
